@@ -80,3 +80,9 @@ class Rover {
      }
   }
 }
+
+let rover1 = new Rover(3, 4);
+let rover2 = new Rover(5, 6);
+  
+rover2.giveCommands("rffbrxll");
+console.log(rover2);
